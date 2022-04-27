@@ -8,7 +8,7 @@ if [ "$(git branch --show-current)" = "main" ]; then
         rm pdfs/*-sol.pdf
         rm pdfs/*\ -\ sol.pdf
         rm -rf *-dev
-        rm -rf sol
+        rm -rf sol/
         rm docker-compose.yml
         rm Dockerfile
         rm print-pdf.sh
